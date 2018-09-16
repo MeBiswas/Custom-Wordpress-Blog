@@ -1,0 +1,98 @@
+#accordion-container {
+	font-size: 15px;
+	background: #ffffff;
+	float: left;
+	width: 100%;
+	
+}
+
+.accordion-header {
+	font-size: 15px;
+	background: #ebebeb;
+	margin: 10px 0 0 0;
+    padding:12px 15px;
+	border: 1px solid #e4e4e4;
+	cursor: pointer;
+	color: #444;
+	position:relative;
+	line-height:normal;
+	/*-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;*/
+	border-radius: none;
+	/*font-weight:bold;*/
+}
+
+.active-header {
+	transition: all 0.5s ease-in-out 0s;
+	-moz-border-radius: 2px 2px 0 0;
+	-webkit-border-radius: 2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+	background: url(../img/minus87.png) #fff;
+	background-repeat: no-repeat;
+	background-position: 97.5% 50%;
+	/*padding: 20px 20px 16px 20px;*/
+	float: left;
+	width: 100%;
+}
+
+
+
+.inactive-header {
+	/*transition: all 0.5s ease-in-out 0s;*/
+    background: #fff url("../img/add139.png") no-repeat scroll 97.5%;
+    float: left;
+    line-height: normal;
+    width: 100%;
+    /*border-radius: 4px;*/
+}
+
+.inactive-header:hover {
+	/*background: url(../images/plus.png); 
+	background-repeat: no-repeat;
+	background-position: 97.5% 50%;*/
+}
+/*
+.accordion-content {
+	display: none;
+	padding:10px 10px 10px 15px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-top: 0;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	width: 100% !important;
+	float: left;
+	background:#F7F7F7;
+	background: #fff;
+}*/
+.accordion-content {
+    /*-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+     border-radius: 2px;
+    border-color: -moz-use-text-color #cccccc #cccccc;
+    border-image: none;
+    border-radius: 2px !important;
+    border-style: none solid solid;
+    */
+    /*background:#F5F5F5 none repeat scroll 0 0;*/
+    /*border:1px solid #e4e4e4;
+    border-width: 0 1px 1px;*/
+    display: none;
+    float: left;
+    /*padding: 20px 10px 15px 15px;*/
+    width: 100% !important;
+    background-color: #F5F5F5;
+}
+.first-p{
+	font-size: 14px;
+	line-height: 22px;
+	margin:0;
+}
+.faq-list-para{
+	float: left;
+	width: 100%;
+}
